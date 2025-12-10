@@ -3,8 +3,8 @@ pipeline {
 
     tools {
         // Jenkins → Manage Jenkins → Global Tool Configuration లో పెట్టిన పేర్లు
-        maven 'Maven-3.9'
-        jdk   'JDK-17'
+        maven 'Maven-3.6.3'
+        jdk   'JDK-21'
     }
 
     options {
