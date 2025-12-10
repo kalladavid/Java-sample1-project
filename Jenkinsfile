@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        // Jenkins → Manage Jenkins → Global Tool Configuration లో పెట్టిన పేర్లు
+        // Jenkins → Manage Jenkins → Global Tool Configuration
         maven 'Maven-3.6.3'
         jdk   'JDK-21'
     }
